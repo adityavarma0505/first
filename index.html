@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form onsubmit="validateForm(event)">
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname">
+        
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname">
+        
+        <label for="mobileNo">Mobile No:</label>
+        <input type="text" id="mobileNo" name="mobileNo">
+        
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        
+        <label for="address">Address:</label>
+        <textarea id="address" name="address"></textarea>
+        
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+        
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state">
+        
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country">
+        
+        <label>Course:</label>
+        <input type="radio" id="CSE" name="course" value="CSE"> CSE
+        <input type="radio" id="CSD" name="course" value="CSD"> CSD
+        <input type="radio" id="CSM" name="course" value="CSM"> CSM
+        <input type="radio" id="CSB" name="course" value="CSB"> CSB<br>
+        
+        <button type="submit">Register</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
