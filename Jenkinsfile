@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        JAVA_HOME = '/usr/lib/jvm/java-11-openjdk-amd64'  // Path to Java on Ubuntu
+        JAVA_HOME = 'C:\Program Files\Java\jdk-23'  // Path to Java on Ubuntu
         PATH = "${JAVA_HOME}/bin:${env.PATH}"
     }
 
